@@ -46,11 +46,11 @@
 }
 
 .nameBox {
-	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	color: #f1f1f1;
 }
 
