@@ -7,22 +7,22 @@
 }
 
 .main_Body {
-	background-image: url(https://s16.stc.all.kpcdn.net/russia/wp-content/uploads/2019/01/Altai-.jpg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: url(https://s16.stc.all.kpcdn.net/russia/wp-content/uploads/2019/01/Altai-.jpg);
 	background-size: 100%;
 }
 
 .avatar_round {
+	position: relative;
 	width: 150px;
 	height: 150px;
-	background-image: url(https://media.discordapp.net/attachments/888505536457367552/1058715437635997736/asdasdasdasd.png);
+	margin: 35px;
+	top: 10px;
 	border-radius: 120px;
 	background-size: cover;
-	margin: 35px;
-	position: relative;
-	top: 10px;
+	background-image: url(https://media.discordapp.net/attachments/888505536457367552/1058715437635997736/asdasdasdasd.png);
 }
 
 @media screen and (max-width: 1200px) {
@@ -32,14 +32,14 @@
 }
 
 .innerBox {
-	margin-top: 50px;
-	padding: 20px;
-	width: 350px;
-	height: 460px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 50px;
+	padding: 20px;
+	width: 350px;
+	height: 460px;
 	backdrop-filter: blur(29px);
 	border-radius: 25px;
 	filter: drop-shadow(0px 0px 70px #00000080);
